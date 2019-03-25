@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Ball v-for="n in 10" :key="n"></Ball>
+    <Field></Field>
   </div>
 </template>
 
 <script>
-import Ball from './components/HelloWorld.vue'
+import Field from './components/Field.vue'
 
 export default {
   name: 'app',
   components: {
-    Ball
+    Field
   }
 }
 </script>
@@ -24,4 +24,13 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+div{
+  margin: 0;
+  padding: 0;
+}
 </style>
+
