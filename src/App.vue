@@ -1,36 +1,26 @@
 <template>
   <div id="app">
-    <Field></Field>
+    <Fund></Fund>
+    <Order></Order>
   </div>
 </template>
 
 <script>
-import Field from './components/Field.vue'
+import Fund from './components/Fund.vue'
+import Order from './components/Order.vue'
 
 export default {
   name: 'app',
   components: {
-    Field
+    Fund,
+    Order
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-body{
-  margin: 0;
-  padding: 0;
-}
-div{
-  margin: 0;
-  padding: 0;
-}
+  div{
+    margin: 0;
+    padding: 0;
+  }
 </style>
-
